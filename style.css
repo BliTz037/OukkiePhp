@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    background-color: #ffe0b2;
+    /*sert à créer une boite dans laquelle se placeront les sections de notre application*/
+    flex-direction: column;
+    /*sert à indiquer que les sections devront se placer les unes sous les autres (column=colonne)*/
+    padding: 0px;
+    margin: 0px;
+}
+
+p,h2,em {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+img.logo{
+    width: 12%;
+    transition: 0.5s;
+}
+
+img.logo:hover{
+    width: 13%;
+    transition: 0.5s;
+}
+
+nav{
+    background-color: #fafafa;
+    
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 40px;
+    font-size: 28px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: black;
+    transition: 0.3s
+        
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    width: 14%;
+    transition: 0.3s;
+}
+
+main {
+    text-align: center;
+    background-color: #fff3e0;
+    padding-bottom: 5%;
+    min-height: 640px;
+}
+
+.logo2{
+    width: 10%;
+}
+
+footer{
+    background-color: #fafafa;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.webmasterLogo{
+    width: 8%;
+    float: right;
+}
